@@ -57,6 +57,10 @@ $task = mysqli_fetch_assoc($result);
         <dd><?php echo $task['description']; ?></dd>
       </dl>
 
+      <dl>
+        <dt>Owner</dt>
+        <dd><?php echo $task['owner']; ?></dd>
+      </dl>
     </section>
 
   </body>
